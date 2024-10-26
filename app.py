@@ -9,7 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 app = FastAPI()
 
 # Set up the Google API key environment variable
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCX8wufJmaEs6sWQoZA7lAnp1AO8mX4Zpw'
+os.environ['GOOGLE_API_KEY'] = ''
 gemini_api_key = os.getenv('GOOGLE_API_KEY')
 
 # Initialize the Gemini model
